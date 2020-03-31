@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "reflect-metadata": "0.1.10",
+    "routing-controllers": "0.7.0",
+    "typedi": "0.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "nodemon": "1.11.0",
+    "typescript": "2.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start:watch": "nodemon ./build/app.js"
+  }
+}
